@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.imageView.image = self.obj.image;
 }
 
 - (void)setObj:(ImageObject *)obj {
