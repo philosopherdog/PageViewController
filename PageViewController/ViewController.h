@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ImageObject;
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic) NSInteger index;
+@property (nonatomic, strong) ImageObject *obj;
 @end
 
